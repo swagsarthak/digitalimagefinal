@@ -60,6 +60,14 @@ data/Images/
 # Local archives
 .venv.zip
 
+# Reports, presentations, and demo media kept outside GitHub
+*.docx
+*.pptx
+*.pdf
+*.mp4
+image_processing_pipeline.png
+FINAL_PROJECT_REPORT.md
+
 # IDE and OS files
 .vscode/
 .idea/
