@@ -1,0 +1,51 @@
+image_path,question,answer,question_type,source_caption
+Images/1000268201_693b08cb0e.jpg,How many children are visible?,1,count,A child in a pink dress is climbing up a set of stairs in an entry way .
+Images/1000268201_693b08cb0e.jpg,What color is the dress?,pink,color,A child in a pink dress is climbing up a set of stairs in an entry way .
+Images/1000268201_693b08cb0e.jpg,What person is visible?,child,object,A child in a pink dress is climbing up a set of stairs in an entry way .
+Images/1001773457_577c3a7d70.jpg,What is the dog doing?,fighting,action,A black dog and a spotted dog are fighting
+Images/1001773457_577c3a7d70.jpg,Where is the scene?,road,scene,A black dog and a tri-colored dog playing with each other on the road .
+Images/1001773457_577c3a7d70.jpg,How many dogs are visible?,2,count,A black dog and a spotted dog are fighting
+Images/1003163366_44323f5815.jpg,What color is the dog?,white,color,A man lays on the bench to which a white dog is also tied .
+Images/1002674143_1b742ab4b8.jpg,What person is visible?,girl,object,A little girl covered in paint sits in front of a painted rainbow with her hands in a bowl .
+Images/1002674143_1b742ab4b8.jpg,What is the girl doing?,sitting,action,A little girl is sitting in front of a large painted rainbow .
+Images/1002674143_1b742ab4b8.jpg,Where is the scene?,grass,scene,A small girl in the grass plays with fingerpaints in front of a white canvas with a rainbow on it .
+Images/1003163366_44323f5815.jpg,How many men are visible?,1,count,A man lays on a bench while his dog sits by him .
+Images/1007129816_e794419615.jpg,What color is the hat?,orange,color,A man in an orange hat starring at something .
+Images/1003163366_44323f5815.jpg,What animal is visible?,dog,object,A man lays on a bench while his dog sits by him .
+Images/1007320043_627395c3d8.jpg,What is the child doing?,playing,action,A child playing on a rope net .
+Images/1007320043_627395c3d8.jpg,Where is the scene?,park,scene,A little girl in pink climbs a rope bridge at the park .
+Images/1007129816_e794419615.jpg,How many men are visible?,1,count,A man in an orange hat starring at something .
+Images/1012212859_01547e3f17.jpg,What color is the ball?,red,color,"A dog shakes its head near the shore , a red ball next to it ."
+Images/1007129816_e794419615.jpg,What person is visible?,man,object,A man in an orange hat starring at something .
+Images/1007320043_627395c3d8.jpg,What is the girl doing?,climbing,action,A little girl climbing on red roping .
+Images/1009434119_febe49276a.jpg,Where is the scene?,grass,scene,A black and white dog is running through the grass .
+Images/1009434119_febe49276a.jpg,How many dogs are visible?,1,count,A black and white dog is running in a grassy garden surrounded by a white fence .
+Images/1012212859_01547e3f17.jpg,What color is the dog?,white,color,A white dog shakes on the edge of a beach with an orange ball .
+Images/1009434119_febe49276a.jpg,What animal is visible?,dog,object,A black and white dog is running in a grassy garden surrounded by a white fence .
+Images/1012212859_01547e3f17.jpg,What is the dog doing?,playing,action,White dog playing with a red ball on the shore near the water .
+Images/1015118661_980735411b.jpg,Where is the scene?,street,scene,A little boy is standing on the street while a man in overalls is working on a stone wall .
+Images/1015118661_980735411b.jpg,How many boys are visible?,1,count,A boy smiles in front of a stony wall in a city .
+Images/1015118661_980735411b.jpg,What color is the shirt?,white,color,Smiling boy in white shirt and blue jeans in front of rock wall with man in overalls behind him .
+Images/1015584366_dfcec3c85a.jpg,What animal is visible?,dog,object,A black dog leaps over a log .
+Images/1015584366_dfcec3c85a.jpg,What is the dog doing?,jumping,action,A mottled black and grey dog in a blue collar jumping over a fallen tree .
+Images/101654506_8eb26cfb60.jpg,Where is the scene?,snow,scene,A brown and white dog is running through the snow .
+Images/1015584366_dfcec3c85a.jpg,How many dogs are visible?,1,count,A black dog leaps over a log .
+Images/101669240_b2d3e7f17b.jpg,What color is the hat?,blue,color,A man in a hat is displaying pictures next to a skier in a blue hat .
+Images/101654506_8eb26cfb60.jpg,What animal is visible?,dog,object,A brown and white dog is running through the snow .
+Images/101654506_8eb26cfb60.jpg,What is the dog doing?,running,action,A brown and white dog is running through the snow .
+Images/101669240_b2d3e7f17b.jpg,Where is the scene?,snow,scene,A man skis past another man displaying paintings in the snow .
+Images/101669240_b2d3e7f17b.jpg,How many men are visible?,1,count,A man in a hat is displaying pictures next to a skier in a blue hat .
+Images/1019077836_6fc9b15408.jpg,What color is the dog?,brown,color,A brown dog chases the water from a sprinkler on a lawn .
+Images/1016887272_03199f49c4.jpg,What person is visible?,person,object,A collage of one person climbing a cliff .
+Images/1016887272_03199f49c4.jpg,What is the person doing?,climbing,action,A collage of one person climbing a cliff .
+Images/1019077836_6fc9b15408.jpg,Where is the scene?,water,scene,A brown dog chases the water from a sprinkler on a lawn .
+Images/1016887272_03199f49c4.jpg,How many people are visible?,1,count,A collage of one person climbing a cliff .
+Images/1019604187_d087bf9a5f.jpg,What color is the dog?,white,color,A white dog is about to catch a yellow ball in its mouth .
+Images/1019077836_6fc9b15408.jpg,What animal is visible?,dog,object,A brown dog chases the water from a sprinkler on a lawn .
+Images/1019604187_d087bf9a5f.jpg,What is the dog doing?,running,action,A white dog running after a yellow ball
+Images/1019604187_d087bf9a5f.jpg,Where is the scene?,field,scene,A dog prepares to catch a thrown object in a field with nearby cars .
+Images/1020651753_06077ec457.jpg,How many dogs are visible?,1,count,a black and white dog jumping in the air to get a toy .
+Images/1020651753_06077ec457.jpg,What color is the dog?,white,color,A white dog is trying to catch a ball in midair over a grassy field .
+Images/1020651753_06077ec457.jpg,What animal is visible?,dog,object,a black and white dog jumping in the air to get a toy .
+Images/1022454332_6af2c1449a.jpg,What is the person doing?,swimming,action,a large lake with a lone duck swimming in it with several people around the edge of it .
+Images/1022454332_6af2c1449a.jpg,Where is the scene?,water,scene,"Two people are at the edge of a lake , facing the water and the city skyline ."

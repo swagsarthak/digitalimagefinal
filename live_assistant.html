@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Visual Intelligence Assistant</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #5f6b7a;
+      --line: #d8dee8;
+      --accent: #116d6e;
+      --accent-dark: #0b5354;
+      --danger: #a43d3d;
+      --tag: #e8f4f4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.45;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(320px, 1.25fr) minmax(320px, 0.75fr);
+      gap: 18px;
+      width: min(1400px, 100%);
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .camera-shell {
+      position: relative;
+      background: #111820;
+      aspect-ratio: 16 / 9;
+      min-height: 320px;
+    }
+
+    video,
+    #overlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: #96a0ad;
+    }
+
+    .dot.live {
+      background: #1f9d55;
+    }
+
+    .dot.error {
+      background: var(--danger);
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(120px, 1fr));
+      gap: 12px;
+      padding: 14px;
+      border-top: 1px solid var(--line);
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    input,
+    select,
+    button {
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      font: inherit;
+      padding: 8px 10px;
+    }
+
+    button {
+      cursor: pointer;
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    button.secondary {
+      background: #fff;
+      color: var(--accent);
+    }
+
+    button.danger {
+      border-color: var(--danger);
+      background: var(--danger);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
+    }
+
+    .results {
+      padding: 18px;
+      display: grid;
+      gap: 18px;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .answer {
+      border-left: 4px solid var(--accent);
+      padding: 10px 12px;
+      background: #f0f7f7;
+      border-radius: 4px;
+    }
+
+    .tags,
+    .objects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pill {
+      background: var(--tag);
+      border: 1px solid #c8dfdf;
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 13px;
+    }
+
+    .object-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      width: 100%;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+    }
+
+    .object-row:last-child {
+      border-bottom: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .controls {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Live Visual Intelligence Assistant</h1>
+    <div class="status">
+      <span id="statusDot" class="dot"></span>
+      <span id="statusText">Camera not started</span>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="camera-shell">
+        <video id="video" autoplay muted playsinline></video>
+        <canvas id="overlay"></canvas>
+      </div>
+      <div class="controls">
+        <label>
+          Camera
+          <select id="cameraSelect"></select>
+        </label>
+        <label>
+          Analyze every
+          <select id="intervalSelect">
+            <option value="2000">2 seconds</option>
+            <option value="3000" selected>3 seconds</option>
+            <option value="5000">5 seconds</option>
+            <option value="10000">10 seconds</option>
+          </select>
+        </label>
+        <label>
+          Question
+          <input id="questionInput" type="text" placeholder="What am I looking at?">
+        </label>
+        <label>
+          Save frames
+          <select id="saveSelect">
+            <option value="false" selected>No</option>
+            <option value="true">Yes</option>
+          </select>
+        </label>
+        <button id="startBtn">Start Camera</button>
+        <button id="analyzeBtn" class="secondary" disabled>Analyze Now</button>
+        <button id="autoBtn" class="secondary" disabled>Start Live Analysis</button>
+        <button id="stopBtn" class="danger" disabled>Stop</button>
+      </div>
+    </section>
+
+    <section class="results">
+      <div>
+        <h2>Caption</h2>
+        <p id="caption" class="muted">Waiting for analysis.</p>
+      </div>
+      <div id="answerBlock" class="hidden">
+        <h2>Answer</h2>
+        <p id="answer" class="answer"></p>
+      </div>
+      <div>
+        <h2>Detected Objects</h2>
+        <div id="objects" class="objects muted">No objects yet.</div>
+      </div>
+      <div>
+        <h2>OCR Text</h2>
+        <p id="ocr" class="muted">No text yet.</p>
+      </div>
+      <div>
+        <h2>Tags</h2>
+        <div id="tags" class="tags muted">No tags yet.</div>
+      </div>
+      <div>
+        <h2>History</h2>
+        <p id="history" class="muted">Enable save frames to keep analyzed frames.</p>
+      </div>
+    </section>
+  </main>
+
+  <canvas id="capture" class="hidden"></canvas>
+
+  <script>
+    const video = document.getElementById("video");
+    const overlay = document.getElementById("overlay");
+    const overlayCtx = overlay.getContext("2d");
+    const capture = document.getElementById("capture");
+    const cameraSelect = document.getElementById("cameraSelect");
+    const intervalSelect = document.getElementById("intervalSelect");
+    const questionInput = document.getElementById("questionInput");
+    const saveSelect = document.getElementById("saveSelect");
+    const startBtn = document.getElementById("startBtn");
+    const analyzeBtn = document.getElementById("analyzeBtn");
+    const autoBtn = document.getElementById("autoBtn");
+    const stopBtn = document.getElementById("stopBtn");
+    const statusDot = document.getElementById("statusDot");
+    const statusText = document.getElementById("statusText");
+    const captionEl = document.getElementById("caption");
+    const answerBlock = document.getElementById("answerBlock");
+    const answerEl = document.getElementById("answer");
+    const objectsEl = document.getElementById("objects");
+    const ocrEl = document.getElementById("ocr");
+    const tagsEl = document.getElementById("tags");
+    const historyEl = document.getElementById("history");
+
+    let stream = null;
+    let timer = null;
+    let analyzing = false;
+    let lastAnalysis = null;
+
+    function setStatus(text, mode) {
+      statusText.textContent = text;
+      statusDot.className = "dot" + (mode ? " " + mode : "");
+    }
+
+    async function loadCameras() {
+      const devices = await navigator.mediaDevices.enumerateDevices();
+      const cameras = devices.filter((device) => device.kind === "videoinput");
+      cameraSelect.innerHTML = "";
+      cameras.forEach((camera, index) => {
+        const option = document.createElement("option");
+        option.value = camera.deviceId;
+        option.textContent = camera.label || "Camera " + (index + 1);
+        cameraSelect.appendChild(option);
+      });
+    }
+
+    async function startCamera() {
+      stopCamera();
+      const constraints = {
+        video: {
+          width: { ideal: 1280 },
+          height: { ideal: 720 },
+        },
+        audio: false,
+      };
+      if (cameraSelect.value) {
+        constraints.video.deviceId = { exact: cameraSelect.value };
+      }
+
+      stream = await navigator.mediaDevices.getUserMedia(constraints);
+      video.srcObject = stream;
+      await video.play();
+      await loadCameras();
+      setStatus("Camera running", "live");
+      analyzeBtn.disabled = false;
+      autoBtn.disabled = false;
+      stopBtn.disabled = false;
+      startBtn.textContent = "Restart Camera";
+      resizeOverlay();
+    }
+
+    function stopCamera() {
+      stopAuto();
+      if (stream) {
+        stream.getTracks().forEach((track) => track.stop());
+      }
+      stream = null;
+      video.srcObject = null;
+      analyzeBtn.disabled = true;
+      autoBtn.disabled = true;
+      stopBtn.disabled = true;
+      startBtn.textContent = "Start Camera";
+      clearOverlay();
+      setStatus("Camera stopped", "");
+    }
+
+    function startAuto() {
+      if (timer) {
+        stopAuto();
+        return;
+      }
+      autoBtn.textContent = "Stop Live Analysis";
+      analyzeFrame();
+      timer = window.setInterval(analyzeFrame, Number(intervalSelect.value));
+    }
+
+    function stopAuto() {
+      if (timer) {
+        window.clearInterval(timer);
+        timer = null;
+      }
+      autoBtn.textContent = "Start Live Analysis";
+    }
+
+    function resizeOverlay() {
+      const rect = video.getBoundingClientRect();
+      overlay.width = Math.max(1, Math.round(rect.width));
+      overlay.height = Math.max(1, Math.round(rect.height));
+      drawObjects();
+    }
+
+    function clearOverlay() {
+      overlayCtx.clearRect(0, 0, overlay.width, overlay.height);
+    }
+
+    function getVideoDisplayRect(imageWidth, imageHeight) {
+      const canvasWidth = overlay.width;
+      const canvasHeight = overlay.height;
+      const imageRatio = imageWidth / imageHeight;
+      const canvasRatio = canvasWidth / canvasHeight;
+
+      if (canvasRatio > imageRatio) {
+        const height = canvasHeight;
+        const width = height * imageRatio;
+        return { x: (canvasWidth - width) / 2, y: 0, width, height };
+      }
+
+      const width = canvasWidth;
+      const height = width / imageRatio;
+      return { x: 0, y: (canvasHeight - height) / 2, width, height };
+    }
+
+    function drawObjects() {
+      clearOverlay();
+      if (!lastAnalysis || !lastAnalysis.analysis.objects.length) {
+        return;
+      }
+
+      const rect = getVideoDisplayRect(lastAnalysis.image_width, lastAnalysis.image_height);
+      const scaleX = rect.width / lastAnalysis.image_width;
+      const scaleY = rect.height / lastAnalysis.image_height;
+      overlayCtx.lineWidth = 3;
+      overlayCtx.font = "14px Arial";
+
+      lastAnalysis.analysis.objects.forEach((item) => {
+        const [x1, y1, x2, y2] = item.box;
+        const x = rect.x + x1 * scaleX;
+        const y = rect.y + y1 * scaleY;
+        const width = (x2 - x1) * scaleX;
+        const height = (y2 - y1) * scaleY;
+        const label = item.label + " " + Math.round(item.score * 100) + "%";
+
+        overlayCtx.strokeStyle = "#24c6a6";
+        overlayCtx.fillStyle = "rgba(17, 109, 110, 0.9)";
+        overlayCtx.strokeRect(x, y, width, height);
+        const textWidth = overlayCtx.measureText(label).width + 12;
+        overlayCtx.fillRect(x, Math.max(0, y - 24), textWidth, 24);
+        overlayCtx.fillStyle = "#ffffff";
+        overlayCtx.fillText(label, x + 6, Math.max(16, y - 7));
+      });
+    }
+
+    function frameBlob() {
+      return new Promise((resolve) => {
+        const width = video.videoWidth || 1280;
+        const height = video.videoHeight || 720;
+        capture.width = width;
+        capture.height = height;
+        capture.getContext("2d").drawImage(video, 0, 0, width, height);
+        capture.toBlob((blob) => resolve(blob), "image/jpeg", 0.82);
+      });
+    }
+
+    async function analyzeFrame() {
+      if (!stream || analyzing) {
+        return;
+      }
+
+      analyzing = true;
+      analyzeBtn.disabled = true;
+      setStatus("Analyzing frame...", "live");
+
+      try {
+        const blob = await frameBlob();
+        const form = new FormData();
+        form.append("image", blob, "live-frame.jpg");
+        form.append("question", questionInput.value.trim());
+        form.append("save", saveSelect.value);
+
+        const response = await fetch("/live/analyze", {
+          method: "POST",
+          body: form,
+        });
+
+        const payload = await response.json();
+        if (!response.ok) {
+          throw new Error(payload.detail || "Analysis failed");
+        }
+
+        lastAnalysis = payload;
+        render(payload);
+        drawObjects();
+        setStatus("Last analyzed " + new Date().toLocaleTimeString(), "live");
+      } catch (error) {
+        setStatus(error.message, "error");
+      } finally {
+        analyzing = false;
+        analyzeBtn.disabled = false;
+      }
+    }
+
+    function render(payload) {
+      const analysis = payload.analysis;
+      captionEl.textContent = analysis.caption || "No caption returned.";
+      captionEl.className = analysis.caption ? "" : "muted";
+
+      if (payload.answer) {
+        answerBlock.classList.remove("hidden");
+        answerEl.textContent = payload.answer;
+      } else {
+        answerBlock.classList.add("hidden");
+        answerEl.textContent = "";
+      }
+
+      objectsEl.innerHTML = "";
+      if (analysis.objects.length) {
+        objectsEl.className = "objects";
+        analysis.objects.forEach((item) => {
+          const row = document.createElement("div");
+          row.className = "object-row";
+          row.innerHTML = "<span>" + item.label + "</span><strong>" + Math.round(item.score * 100) + "%</strong>";
+          objectsEl.appendChild(row);
+        });
+      } else {
+        objectsEl.className = "objects muted";
+        objectsEl.textContent = "No objects detected above the threshold.";
+      }
+
+      ocrEl.textContent = analysis.extracted_text || "No readable text detected.";
+      ocrEl.className = analysis.extracted_text ? "" : "muted";
+
+      tagsEl.innerHTML = "";
+      if (analysis.tags.length) {
+        tagsEl.className = "tags";
+        analysis.tags.forEach((tag) => {
+          const pill = document.createElement("span");
+          pill.className = "pill";
+          pill.textContent = tag;
+          tagsEl.appendChild(pill);
+        });
+      } else {
+        tagsEl.className = "tags muted";
+        tagsEl.textContent = "No tags generated.";
+      }
+
+      historyEl.textContent = payload.saved_id
+        ? "Saved frame id: " + payload.saved_id
+        : "Frame was not saved.";
+      historyEl.className = payload.saved_id ? "" : "muted";
+    }
+
+    startBtn.addEventListener("click", () => {
+      startCamera().catch((error) => setStatus(error.message, "error"));
+    });
+    analyzeBtn.addEventListener("click", analyzeFrame);
+    autoBtn.addEventListener("click", startAuto);
+    stopBtn.addEventListener("click", stopCamera);
+    cameraSelect.addEventListener("change", () => {
+      if (stream) {
+        startCamera().catch((error) => setStatus(error.message, "error"));
+      }
+    });
+    intervalSelect.addEventListener("change", () => {
+      if (timer) {
+        stopAuto();
+        startAuto();
+      }
+    });
+    window.addEventListener("resize", resizeOverlay);
+    video.addEventListener("loadedmetadata", resizeOverlay);
+
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      setStatus("This browser does not support camera access.", "error");
+      startBtn.disabled = true;
+    } else {
+      loadCameras().catch(() => {});
+    }
+  </script>
+</body>
+</html>

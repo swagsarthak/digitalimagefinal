@@ -1,0 +1,13 @@
+torch
+transformers>=4.41.0
+accelerate
+timm
+pillow
+streamlit
+pandas
+tqdm
+nltk
+numpy
+fastapi
+uvicorn
+python-multipart

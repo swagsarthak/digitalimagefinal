@@ -1,0 +1,501 @@
+image_path,question,answer,question_type,source_caption
+Images/1022975728_75515238d8.jpg,How many dogs are visible?,1,count,A black dog running in the surf .
+Images/1022975728_75515238d8.jpg,What color is the dog?,black,color,A black dog running in the surf .
+Images/1030985833_b0902ea560.jpg,What animal is visible?,dog,object,A black dog and a brown dog are jumping up to catch a red toy .
+Images/1030985833_b0902ea560.jpg,What is the dog doing?,jumping,action,A black dog and a brown dog are jumping up to catch a red toy .
+Images/1032460886_4a598ed535.jpg,Where is the scene?,building,scene,A man stands in front of a very tall building .
+Images/1032460886_4a598ed535.jpg,How many men are visible?,1,count,a man is standing in front of a skyscraper
+Images/109202756_b97fcdc62c.jpg,What color is the horse?,brown,color,A woman dressed in a blue jacket and blue jeans rides a brown horse near a frozen lake and snow-covered mountain .
+Images/1052358063_eae6744153.jpg,What person is visible?,boy,object,A boy takes a jump on his skateboard while another boy with a skateboard watches .
+Images/1052358063_eae6744153.jpg,What is the boy doing?,jumping,action,a young boy skateboarder jumping on a platform on a skateboard .
+Images/109202756_b97fcdc62c.jpg,Where is the scene?,water,scene,A woman in a blue jacket rides a brown pony near water .
+Images/1055623002_8195a43714.jpg,How many children are visible?,4,count,A group of four children wearing pajamas have a pillow fight .
+Images/1094462889_f9966dafa6.jpg,What color is the dog?,brown,color,A brown dog plays in a deep pile of snow .
+Images/1055623002_8195a43714.jpg,What person is visible?,child,object,A group of four children wearing pajamas have a pillow fight .
+Images/1095476286_87d4f8664e.jpg,What is the boy doing?,jumping,action,A boy jumping in a fountain .
+Images/1094462889_f9966dafa6.jpg,Where is the scene?,snow,scene,A brown dog plays in a deep pile of snow .
+Images/1095476286_87d4f8664e.jpg,How many boys are visible?,1,count,A boy jumping in a fountain .
+Images/1107246521_d16a476380.jpg,What color is the dog?,black,color,a black dog jumping to catch a rope toy
+Images/109823397_e35154645f.jpg,What person is visible?,man,object,A man jumps gin the air while riding an ATV
+Images/109823397_e35154645f.jpg,What is the man doing?,riding,action,A man jumps gin the air while riding an ATV
+Images/110595925_f3395c8bd6.jpg,Where is the scene?,road,scene,A cyclist is riding a bicycle on a curved road up a hill .
+Images/110595925_f3395c8bd6.jpg,How many bikes are visible?,1,count,A cyclist is riding a bicycle on a curved road up a hill .
+Images/1124448967_2221af8dc5.jpg,What color is the hat?,white,color,"A shirtless man in a white cap relaxes in a deck chair , close to three parked bicycles ."
+Images/1107246521_d16a476380.jpg,What animal is visible?,dog,object,a black dog jumping to catch a rope toy
+Images/1119418776_58e4b93eac.jpg,What is the dog doing?,running,action,A black and white dog is running through the field .
+Images/1119418776_58e4b93eac.jpg,Where is the scene?,field,scene,A black and white dog is running through the field .
+Images/1124448967_2221af8dc5.jpg,How many men are visible?,1,count,A half naked man is sleeping on his chair outdoors .
+Images/1130401779_8c30182e3e.jpg,What color is the dog?,brown,color,Two brown dogs are creating large splashes as they run in a river .
+Images/1130401779_8c30182e3e.jpg,What animal is visible?,dog,object,Two brown dogs are creating large splashes as they run in a river .
+Images/1149179852_acad4d7300.jpg,What is the man doing?,walking,action,The shirtless man is walking the Shetland pony and carriage down the street .
+Images/1149179852_acad4d7300.jpg,Where is the scene?,road,scene,A shirtless man escorts a horse pulling a carriage along a paved road .
+Images/114051287_dd85625a04.jpg,How many boys are visible?,1,count,A boy dressed in soccer attire and holding his shoes getting out of a car .
+Images/114051287_dd85625a04.jpg,What color is the shirt?,red,color,A boy in glasses is wearing a red shirt .
+Images/1143882946_1898d2eeb9.jpg,What object is visible?,bike,object,A lady wearing a helmet holding a bike .
+Images/1153704539_542f7aa3a5.jpg,What is the girl doing?,playing,action,A girl playing trumpet in a marching band .
+Images/1153704539_542f7aa3a5.jpg,Where is the scene?,field,scene,A teenager plays her trumpet on the field at a game .
+Images/1143882946_1898d2eeb9.jpg,How many bikes are visible?,2,count,A lady wearing a helmet holding a bike .
+Images/1155138244_859fd6e079.jpg,What color is the hat?,green,color,An Asian girl in a green hat and apron is serving drinks on a tray .
+Images/114949897_490ca7eaec.jpg,What person is visible?,boy,object,A boy hits a ball off of a tee ball into to net .
+Images/1167908324_8caab45e15.jpg,What is the man doing?,standing,action,A man is standing by a group of video games in a bar .
+Images/1155138244_859fd6e079.jpg,Where is the scene?,street,scene,A girl hands out Starbucks samples at a street fair .
+Images/114949897_490ca7eaec.jpg,How many boys are visible?,1,count,A boy hits a ball off of a tee ball into to net .
+Images/1167669558_87a8a467d6.jpg,What color is the shirt?,yellow,color,a man wearing a yellow shirt with a dramatic look on his face
+Images/1167669558_87a8a467d6.jpg,What person is visible?,man,object,A man in yellow grimaces .
+Images/1174629344_a2e1a2bdbf.jpg,What is the person doing?,walking,action,A group of different people are walking in all different directions in a city .
+Images/1174629344_a2e1a2bdbf.jpg,Where is the scene?,street,scene,A group of people walking a city street in warm weather .
+Images/1167908324_8caab45e15.jpg,How many men are visible?,1,count,A man is standing by a group of video games in a bar .
+Images/1189977786_4f5aaed773.jpg,What color is the dog?,gray,color,one tan dog jumping in a pool while the other grey dog is on the deck
+Images/1189977786_4f5aaed773.jpg,What animal is visible?,dog,object,A dog jumping into a swimming pool .
+Images/119534510_d52b3781a3.jpg,What is the man doing?,sitting,action,A man in a brown shirt sitting on a dock and reading .
+Images/119534510_d52b3781a3.jpg,Where is the scene?,water,scene,"A man is sitting next to the water , reading ."
+Images/1204996216_71d7519d9a.jpg,How many boys are visible?,1,count,A boy lays on a picnic table bench .
+Images/1204996216_71d7519d9a.jpg,What color is the shirt?,red,color,A little boy in a red shirt sitting on a wooden picnic table bench .
+Images/1206506157_c7956accd5.jpg,What animal is visible?,dog,object,Dogs fight in grass over toy .
+Images/1206506157_c7956accd5.jpg,What is the dog doing?,playing,action,Two dogs are playing rough in a green field of grass .
+Images/121800200_bef08fae5f.jpg,Where is the scene?,mountain,scene,Many people are climbing the mountain surrounded by pretty green trees .
+Images/1227655020_b11a1bb112.jpg,How many dogs are visible?,2,count,A black dog and a brown dog playing in tall weeds .
+Images/1229756013_94663527d7.jpg,What color is the dog?,brown,color,A brown dog jumping in the air on a brown plain .
+Images/121800200_bef08fae5f.jpg,What person is visible?,person,object,Many people are climbing the mountain surrounded by pretty green trees .
+Images/1227655020_b11a1bb112.jpg,What is the dog doing?,playing,action,A black dog and a brown dog playing in tall weeds .
+Images/1229756013_94663527d7.jpg,Where is the scene?,field,scene,A dog leaps into the air in a grassy field surrounded by trees .
+Images/1231229740_8dcbf80bfb.jpg,How many children are visible?,1,count,A child in gray clothes is sleeping on a red cushion .
+Images/1235681222_819231767a.jpg,What color is the shirt?,blue,color,A person in a blue shirt sits behind two people sitting on a wood bench .
+Images/1231229740_8dcbf80bfb.jpg,What person is visible?,child,object,A child in gray clothes is sleeping on a red cushion .
+Images/1235681222_819231767a.jpg,What is the person doing?,sitting,action,A person in a blue shirt sits behind two people sitting on a wood bench .
+Images/123997871_6a9ca987b1.jpg,Where is the scene?,field,scene,These girls are in uniforms and are playing field hockey .
+Images/1235685934_be89b231fb.jpg,How many men are visible?,1,count,A man in sunglasses on an overpass .
+Images/1235685934_be89b231fb.jpg,What color is the shirt?,white,color,The man is wearing a white shirt and sunglasses .
+Images/123997871_6a9ca987b1.jpg,What person is visible?,girl,object,Girls wearing sports uniforms and eye protection .
+Images/124195430_d14028660f.jpg,What is the horse doing?,sitting,action,A brown horse stands near a black horse that is sitting on the ground .
+Images/124195430_d14028660f.jpg,Where is the scene?,beach,scene,A brown horse and a black foal on the beach
+Images/1247181182_35cabd76f3.jpg,How many men are visible?,1,count,a man sits on a rock .
+Images/1247181182_35cabd76f3.jpg,What color is the shirt?,blue,color,A man wearing a blue shirt crouches on a rocky cliff .
+Images/1248940539_46d33ed487.jpg,What person is visible?,child,object,Three children are playing in sand near to the beach .
+Images/1248940539_46d33ed487.jpg,What is the child doing?,playing,action,Three children are playing in sand near to the beach .
+Images/1252396628_eb81d3905b.jpg,Where is the scene?,road,scene,A man in a red biker suit on a red dirt bike going down a muddy road .
+Images/1248953128_24c9f8d924.jpg,How many girls are visible?,1,count,A little girl in a colorful dress is playing with a blue and red soccer ball .
+Images/1248953128_24c9f8d924.jpg,What color is the ball?,red,color,A little girl in a colorful dress is playing with a blue and red soccer ball .
+Images/1251558317_4ef844b775.jpg,What person is visible?,child,object,An adult and a child sitting on a police motorcycle .
+Images/1251558317_4ef844b775.jpg,What is the child doing?,sitting,action,An adult and a child sitting on a police motorcycle .
+Images/125319704_49ead3463c.jpg,Where is the scene?,road,scene,Two off road bikers stopped in a creek .
+Images/1252396628_eb81d3905b.jpg,How many men are visible?,1,count,A man in a red biker suit on a red dirt bike going down a muddy road .
+Images/1253264731_e7c689eca5.jpg,What color is the shirt?,pink,color,A girl wearing a pink shirt and overalls is smiling and there is another child that is out of focus .
+Images/125319704_49ead3463c.jpg,What person is visible?,person,object,Person standing beside bike in stream .
+Images/1253264731_e7c689eca5.jpg,What is the child doing?,playing,action,Children playing in stopped motion
+Images/1287920676_d21a0b289b.jpg,Where is the scene?,snow,scene,A snow dog in a red harness .
+Images/1262583859_653f1469a9.jpg,How many men are visible?,1,count,A man in a bright green shirt and sunglasses is riding a bicycle through the streets whilst drinking a latte .
+Images/1262583859_653f1469a9.jpg,What color is the shirt?,green,color,A man in a bright green shirt and sunglasses is riding a bicycle through the streets whilst drinking a latte .
+Images/127488876_f2d2a89588.jpg,What person is visible?,man,object,"One man in red shirt and black pants with a man in white shirt and tan shorts , golfing ."
+Images/127488876_f2d2a89588.jpg,What is the man doing?,playing,action,"Tree in the foreground , two men playing golf in the background ."
+Images/1287982439_6578006e22.jpg,Where is the scene?,water,scene,A big brown dog is jumping in the water and has his mouth wide open .
+Images/1285067106_2adc307240.jpg,How many boys are visible?,1,count,a boy in white plays baseball .
+Images/1287920676_d21a0b289b.jpg,What color is the dog?,white,color,A white dog with red straps on it is looking back .
+Images/1285067106_2adc307240.jpg,What person is visible?,boy,object,a boy in white plays baseball .
+Images/1287982439_6578006e22.jpg,What is the dog doing?,jumping,action,A big brown dog is jumping in the water and has his mouth wide open .
+Images/1289142574_2bd6a082dd.jpg,Where is the scene?,park,scene,A boy jumps from one table to another at a park .
+Images/1289142574_2bd6a082dd.jpg,How many boys are visible?,1,count,A boy jumps from one picnic table to another .
+Images/1348304997_afe60a61df.jpg,What color is the girl?,red,color,A barefoot red-headed girl jumping over a rail .
+Images/1295671216_cde1b9c9d1.jpg,What person is visible?,man,object,A man in a blue sweatshirt taking a picture
+Images/1295671216_cde1b9c9d1.jpg,What is the person doing?,standing,action,A person in jeans and a blue sweatshirt aims a camera while standing near a crowd of people .
+Images/1296412797_85b6d2f8d6.jpg,Where is the scene?,grass,scene,A young child is swung by his or her hands while another child sits on grass watching .
+Images/1296412797_85b6d2f8d6.jpg,How many children are visible?,1,count,A child is being swung by her arms while another child watches .
+Images/1377668044_36398401dd.jpg,What color is the dog?,brown,color,Man playing with a brown dog on a dirt path .
+Images/1298295313_db1f4c6522.jpg,What person is visible?,boy,object,A blonde boy wearing a blue life vest and camo shorts jumps off a diveboard into a blue lake .
+Images/1298295313_db1f4c6522.jpg,What is the boy doing?,jumping,action,A boy is holding his nose and jumping off a diving board backwards into a lake .
+Images/1299459550_1fd5594fa2.jpg,Where is the scene?,water,scene,A young boy laying face down in water .
+Images/1298866571_b4c496b71c.jpg,How many men are visible?,1,count,a asian man gives an evil eye to the camera .
+Images/1389651420_8d95d8f6ed.jpg,What color is the shirt?,red,color,A little boy in a red shirt is making a face into the camera while waiting at a go cart track .
+Images/1298866571_b4c496b71c.jpg,What person is visible?,man,object,a asian man gives an evil eye to the camera .
+Images/1299459550_1fd5594fa2.jpg,What is the boy doing?,swimming,action,A boy in swimming trunks .
+Images/1303335399_b3facd47ab.jpg,Where is the scene?,pool,scene,A baby boy wearing a shoulder life saver is at the very edge of an orange pool slide .
+Images/1303335399_b3facd47ab.jpg,How many boys are visible?,1,count,A baby boy wearing a shoulder life saver is at the very edge of an orange pool slide .
+Images/1392272228_cf104086e6.jpg,What color is the dog?,black,color,A black dog carrying an object out of the water .
+Images/1303727828_d1052ee341.jpg,What person is visible?,man,object,A man in a feather hat looking down .
+Images/1322323208_c7ecb742c6.jpg,What is the child doing?,standing,action,"Two children , one of which is holding a stick , are standing on the beach as the sun begins to set ."
+Images/1304961697_76b86b0c18.jpg,Where is the scene?,water,scene,Two children prepare to high-five while participating in water sports .
+Images/1303727828_d1052ee341.jpg,How many men are visible?,1,count,A man in a feather hat looking down .
+Images/1403414927_5f80281505.jpg,What color is the dog?,gray,color,A white and a gray dog walking along a path in the wood .
+Images/1304961697_76b86b0c18.jpg,What person is visible?,child,object,Two children on surfboards wave to each other .
+Images/1322323208_c7ecb742c6.jpg,What is the child doing?,playing,action,Two young children playing with sticks at the beach .
+Images/1332815795_8eea44375e.jpg,Where is the scene?,playground,scene,A little girl is swinging in a baby swing on the playground .
+Images/1321723162_9d4c78b8af.jpg,How many girls are visible?,1,count,A little girl holding hands with her ice skating instructor .
+Images/1414779054_31946f9dfc.jpg,What color is the shirt?,blue,color,A boy wearing a blue t-shirt is jumping up in the air on a city street .
+Images/1321723162_9d4c78b8af.jpg,What person is visible?,girl,object,A little girl holding hands with her ice skating instructor .
+Images/1348304997_afe60a61df.jpg,What is the girl doing?,jumping,action,A barefoot red-headed girl jumping over a rail .
+Images/1338523142_57fce8229b.jpg,Where is the scene?,mountain,scene,A backpacker walks down a rocky mountain .
+Images/1332815795_8eea44375e.jpg,How many girls are visible?,1,count,A little girl is swinging in a baby swing on the playground .
+Images/1418266617_b32143275b.jpg,What color is the dog?,white,color,"A wet , white dog is jumping over obstacles ."
+Images/1338523142_57fce8229b.jpg,What person is visible?,man,object,A man with a black and blue backpack hikes down a rock face .
+Images/1350811702_2ce7cfd0c5.jpg,What is the boy doing?,standing,action,Young boy standing next to water casting his fishing rod with others next to him .
+Images/1350811702_2ce7cfd0c5.jpg,Where is the scene?,water,scene,Young boy standing next to water casting his fishing rod with others next to him .
+Images/1352410176_af6b139734.jpg,How many girls are visible?,1,count,A blonde girl is stepping on vertical logs in the sand .
+Images/1419286010_b59af3962a.jpg,What color is the hat?,gray,color,A man in a gray cap fishing .
+Images/1352410176_af6b139734.jpg,What person is visible?,girl,object,A blonde girl is stepping on vertical logs in the sand .
+Images/1355450069_c0675b0706.jpg,What is the man doing?,climbing,action,A man is climbing up a wall
+Images/1357724865_4faf4e1418.jpg,Where is the scene?,water,scene,A man is standing in water near a waterfall .
+Images/1355450069_c0675b0706.jpg,How many men are visible?,1,count,A man is climbing up a wall
+Images/1429723917_6af585e4c0.jpg,What color is the shirt?,brown,color,a bald man with a tattooed head stands next to a man with a brown t-shirt in front of a transparent awning .
+Images/1357724865_4faf4e1418.jpg,What person is visible?,man,object,A half-dressed man walks into a river at the bottom of a small waterfall .
+Images/136639119_6040b00946.jpg,What is the man doing?,climbing,action,A man is rock climbing under a large cliff .
+Images/1368383637_614646cc4a.jpg,Where is the scene?,building,scene,Three people enjoying the view in a modern building .
+Images/136639119_6040b00946.jpg,How many men are visible?,1,count,A man climbs up a cliff and reaches an overhang .
+Images/1429723917_6af585e4c0.jpg,What color is the shirt?,black,color,"Two men walk down a street , one with a black shirt and facial tattoos ."
+Images/136644343_0e2b423829.jpg,What person is visible?,boy,object,A boy rides on a tire swing .
+Images/1384292980_4022a7520c.jpg,What is the woman doing?,walking,action,Two women walking .
+Images/1384292980_4022a7520c.jpg,Where is the scene?,street,scene,The girls walk down the street .
+Images/136644343_0e2b423829.jpg,How many boys are visible?,1,count,A boy rides on a tire swing .
+Images/1433577867_39a1510c43.jpg,What color is the dog?,white,color,A wet white dog is splashing in the water with a stick in its mouth .
+Images/1368383637_614646cc4a.jpg,What animal is visible?,dog,object,People stand in corridor looking from balcony as another person walks dog
+Images/1386964743_9e80d96b05.jpg,What is the boy doing?,playing,action,a boy is playing with a camera whilst standing on a dirt track .
+Images/1386964743_9e80d96b05.jpg,Where is the scene?,track,scene,a boy is playing with a camera whilst standing on a dirt track .
+Images/136886677_6026c622eb.jpg,How many men are visible?,2,count,A large man sits in the back of a canoe with another man in front on a river .
+Images/1434607942_da5432c28c.jpg,What color is the man?,white,color,A white man with carrying hair and a beard with a child on his shoulders .
+Images/136886677_6026c622eb.jpg,What person is visible?,man,object,A large man sits in the back of a canoe with another man in front on a river .
+Images/1389651420_8d95d8f6ed.jpg,What is the boy doing?,standing,action,A little boy is standing in line for go-karts .
+Images/1390268323_2c8204e91c.jpg,Where is the scene?,bench,scene,two small boys wearing only their underwear climbing a bench in a van
+Images/1377668044_36398401dd.jpg,How many dogs are visible?,1,count,A dog jumping in the air to retrieve a stick from a man .
+Images/143688283_a96ded20f1.jpg,What color is the shirt?,white,color,A man with a white shirt and helmet is climbing a mountain .
+Images/1390268323_2c8204e91c.jpg,What person is visible?,child,object,Two children climb into the back of a vehicle from the front seat .
+Images/1392272228_cf104086e6.jpg,What is the dog doing?,walking,action,A black dog with a stick in its mouth is walking out of the water onto a beach .
+Images/1402641725_5e027ecaa7.jpg,Where is the scene?,beach,scene,Four children playing in the sand at a beach .
+Images/1401961581_76921a75c5.jpg,How many children are visible?,1,count,A child is in a harness with onlookers .
+Images/1445123245_c7b9db0e0c.jpg,What color is the dog?,black,color,A black and tan dog plays with a centipede toy .
+Images/1401961581_76921a75c5.jpg,What person is visible?,child,object,A child is in a harness with onlookers .
+Images/1402641725_5e027ecaa7.jpg,What is the child doing?,playing,action,Four children are playing on a hill of sand .
+Images/140430106_2978fda105.jpg,Where is the scene?,beach,scene,A dog is running along a beach on a sunny day .
+Images/1403414927_5f80281505.jpg,How many dogs are visible?,2,count,A black dog in front of a white dog walking on a path in a forest .
+Images/1470061031_4cb59c12a8.jpg,What color is the dog?,brown,color,Two pale brown dogs tussling on paved ground .
+Images/140430106_2978fda105.jpg,What animal is visible?,dog,object,A dog is running along a beach on a sunny day .
+Images/1405221276_21634dcd58.jpg,What is the dog doing?,playing,action,Two dogs are shaking off water while playing with a ball on the edge of a body of water .
+Images/1404832008_68e432665b.jpg,Where is the scene?,water,scene,a man in a harness being dragged across the water
+Images/1404832008_68e432665b.jpg,How many men are visible?,1,count,a man in a harness being dragged across the water
+Images/1490213660_9ea45550cf.jpg,What color is the dog?,brown,color,The brown dog is walking through a river surrounded by bushes .
+Images/1405221276_21634dcd58.jpg,What animal is visible?,dog,object,"One dog shaking the water off , getting a second dog wet"
+Images/1408958345_68eea9a4e4.jpg,What is the girl doing?,running,action,A little girl in a flower swimsuit running across the beach with waves in the background .
+Images/1408958345_68eea9a4e4.jpg,Where is the scene?,beach,scene,A girl smiles as she runs across the white sandy beach in her swimsuit .
+Images/1410193619_13fff6c875.jpg,How many children are visible?,1,count,A small child climbs onto the arm of a red couch .
+Images/1501985304_8c50093004.jpg,What color is the boy?,brown,color,A young curly brown headed boy is jumping into the arms of a woman in a pool .
+Images/1410193619_13fff6c875.jpg,What person is visible?,child,object,A small child climbs onto the arm of a red couch .
+Images/1412832223_99e8b4701a.jpg,What is the girl doing?,jumping,action,A girl jumping in sand .
+Images/1413956047_c826f90c8b.jpg,Where is the scene?,mountain,scene,Three are standing on a mountain .
+Images/1412832223_99e8b4701a.jpg,How many children are visible?,1,count,A child jumps on a sand dune .
+Images/1526325728_74eb4153d8.jpg,What color is the dog?,gray,color,A grey colored dog walks in wet sand at a beach .
+Images/1413956047_c826f90c8b.jpg,What person is visible?,man,object,These three young men are standing on a mountaintop .
+Images/1414779054_31946f9dfc.jpg,What is the boy doing?,jumping,action,A boy jumping off of a cement block .
+Images/1415591512_a84644750c.jpg,Where is the scene?,grass,scene,A girl in boots is active in the grass .
+Images/1415591512_a84644750c.jpg,How many girls are visible?,1,count,A girl in boots is active in the grass .
+Images/1526325728_74eb4153d8.jpg,What color is the dog?,brown,color,Light brown dog running towards something at the beach .
+Images/141755290_4b954529f3.jpg,What person is visible?,woman,object,A woman in an red tracksuit squeezing lemons in a press .
+Images/1417941060_2a0f7908bc.jpg,What is the boy doing?,sitting,action,An infant sitting on a cot reaching over to touch the face of an older boy .
+Images/1418266617_b32143275b.jpg,Where is the scene?,water,scene,A black and white dog jumps over a pole while splashing water around .
+Images/141755290_4b954529f3.jpg,How many women are visible?,1,count,A woman in an red tracksuit squeezing lemons in a press .
+Images/1528205014_1323aa9dfd.jpg,What color is the shirt?,yellow,color,A man in a yellow shirt wearing multi-colored plastic jewelry .
+Images/1417882092_c94c251eb3.jpg,What person is visible?,man,object,Two men are watching something .
+Images/1420060118_aed262d606.jpg,What is the child doing?,jumping,action,A child dressed as a ninja is jumping through the air under a large tree .
+Images/1419286010_b59af3962a.jpg,Where is the scene?,water,scene,A fisherman is reeling his rod while another relaxes in a boat on water .
+Images/1417882092_c94c251eb3.jpg,How many men are visible?,2,count,Two men are watching something .
+Images/1528205014_1323aa9dfd.jpg,What color is the man?,black,color,Black man poses for photo .
+Images/1417941060_2a0f7908bc.jpg,What person is visible?,boy,object,A baby plays with a young boys face .
+Images/1420060118_aed262d606.jpg,What is the man doing?,jumping,action,A man wearing a martial arts uniform is jumping through the air .
+Images/1423997242_ea2189ec5e.jpg,Where is the scene?,field,scene,A hiker resting in a field .
+Images/1423997242_ea2189ec5e.jpg,How many men are visible?,1,count,A man enjoys a peaceful solitary moment while camping .
+Images/1557451043_f5c91ff6f4.jpg,What color is the dress?,blue,color,The girl in the blue dress and the baseball cap is sitting near the ocean .
+Images/1424775129_ffea9c13ab.jpg,What person is visible?,boy,object,A little boy walking on railroad tracks .
+Images/1424775129_ffea9c13ab.jpg,What is the boy doing?,walking,action,A little boy walking on railroad tracks .
+Images/1432179046_8e3d75cf81.jpg,Where is the scene?,building,scene,The man is playing tennis against the building .
+Images/1432179046_8e3d75cf81.jpg,How many men are visible?,1,count,A man in the near distance is pointing to a silver sedan near him .
+Images/1562392511_522a26063b.jpg,What color is the dog?,black,color,Black dog with blue string in its mouth .
+Images/1433577867_39a1510c43.jpg,What animal is visible?,dog,object,A wet white dog is splashing in the water with a stick in its mouth .
+Images/143552697_af27e9acf5.jpg,What is the man doing?,riding,action,A man riding his bike on a hill .
+Images/1434005938_ad75c8598c.jpg,Where is the scene?,field,scene,A person wearing a blue backpack stands on a field above a scenic view .
+Images/1434005938_ad75c8598c.jpg,How many men are visible?,1,count,A man is carrying a large backpack and looking over some green fields .
+Images/1562392511_522a26063b.jpg,What color is the dog?,gray,color,Two men handle a grey dog with a blue knotted rope in its mouth .
+Images/143552697_af27e9acf5.jpg,What person is visible?,man,object,A man riding his bike on a hill .
+Images/143680966_0010ff8c60.jpg,What is the man doing?,climbing,action,A man wearing a backpack is climbing a rock .
+Images/143688283_a96ded20f1.jpg,Where is the scene?,mountain,scene,A man with a white shirt and helmet is climbing a mountain .
+Images/1434607942_da5432c28c.jpg,How many children are visible?,1,count,A child rides on a man 's shoulders .
+Images/1580671272_3e99d94305.jpg,What color is the horse?,gray,color,Grey horse wearing blue cover eating from a orange bucket held by a person in a green shirt .
+Images/143680966_0010ff8c60.jpg,What person is visible?,man,object,A man wearing a backpack is climbing a rock .
+Images/143684568_3c59299bae.jpg,What is the man doing?,standing,action,A man standing on a cliff
+Images/1439046601_cf110a75a7.jpg,Where is the scene?,pool,scene,A boy is smiling whilst standing in front of a swimming pool .
+Images/143684568_3c59299bae.jpg,How many men are visible?,1,count,A man standing on a cliff
+Images/1580671272_3e99d94305.jpg,What color is the shirt?,green,color,Grey horse wearing blue cover eating from a orange bucket held by a person in a green shirt .
+Images/1439046601_cf110a75a7.jpg,What person is visible?,boy,object,A boy is smiling whilst standing in front of a swimming pool .
+Images/146100443_906d87faa2.jpg,What is the child doing?,playing,action,Kids are dressed in costume and playing a game .
+Images/1461329041_c623b06e5b.jpg,Where is the scene?,beach,scene,The two ladies are riding bicycles near the beach .
+Images/1440024115_129212c988.jpg,How many men are visible?,1,count,A man plays Frisbee with his dog .
+Images/1600208439_e94527b80f.jpg,What color is the dog?,brown,color,A brown dog playing in mud .
+Images/1440024115_129212c988.jpg,What animal is visible?,dog,object,A man plays Frisbee with his dog .
+Images/1461329041_c623b06e5b.jpg,What is the woman doing?,riding,action,Two women on low riding three-wheeled vehicles with baskets .
+Images/1467533293_a2656cc000.jpg,Where is the scene?,park,scene,Two girls play at a park .
+Images/1445123245_c7b9db0e0c.jpg,How many dogs are visible?,1,count,A black and tan dog plays with a centipede toy .
+Images/1622619190_d0b51aff28.jpg,What color is the dog?,brown,color,A brown dog is walking on the grass beside a fence .
+Images/146100443_906d87faa2.jpg,What person is visible?,child,object,Kids are dressed in costume and playing a game .
+Images/146577645_91b570c0d0.jpg,What is the person doing?,riding,action,A person maneuvers rapids while riding a watercraft .
+Images/1467533293_a2656cc000.jpg,Where is the scene?,playground,scene,Two little girls in pink are in a playground .
+Images/146577645_91b570c0d0.jpg,How many men are visible?,1,count,A man paddles down the rapids in a kayak .
+Images/1679565118_d36f0d6d52.jpg,What color is the dog?,black,color,A black dog jumps to catch a ball in his mouth near a rock wall .
+Images/1468389504_c724bdcad0.jpg,What person is visible?,girl,object,Two girls in pink are playing on yellow playground bars .
+Images/1468389504_c724bdcad0.jpg,What is the girl doing?,playing,action,Two girls in pink are playing on yellow playground bars .
+Images/1470061031_4cb59c12a8.jpg,Where is the scene?,pavement,scene,Two dogs are fighting on brick pavement .
+Images/1472882567_33dc14c8b6.jpg,How many people are visible?,4,count,Four people climbing a hill in the snow .
+Images/174466741_329a52b2fe.jpg,What color is the shirt?,pink,color,A girl with a pink shirt is running through flowery grass .
+Images/1472882567_33dc14c8b6.jpg,What person is visible?,person,object,Four people climbing a hill in the snow .
+Images/1482960952_95f2d419cb.jpg,What is the woman doing?,walking,action,Three elderly women walking from behind .
+Images/1499581619_a5f65a882c.jpg,Where is the scene?,beach,scene,A couple dressed in hoodies kissing on the beach .
+Images/1482960952_95f2d419cb.jpg,How many women are visible?,3,count,"Three elderly women , two with canes , walk through a parking lot ."
+Images/1745110280_0cbff5e273.jpg,What color is the dog?,brown,color,A brown dog with a black collar stands next to a bush .
+Images/1490213660_9ea45550cf.jpg,What animal is visible?,dog,object,A dog is trotting through a shallow stream
+Images/150387174_24825cf871.jpg,What is the man doing?,riding,action,A man dressed in camouflage riding a motorbike
+Images/1501985304_8c50093004.jpg,Where is the scene?,pool,scene,A small child gets into a pool with help from a woman .
+Images/1499581619_a5f65a882c.jpg,How many men are visible?,1,count,A man and a woman share a kiss on the beach .
+Images/1764955991_5e53a28c87.jpg,What color is the dog?,brown,color,A brown dog is carrying a ball up the road .
+Images/1500853305_0150615ce9.jpg,What person is visible?,girl,object,A little girl hugs her brother on a footbridge in a forest .
+Images/1507563902_6ec8d5d822.jpg,What is the child doing?,jumping,action,a child is doing a back flip whilst jumping on a trampoline .
+Images/1529044279_4922ead27c.jpg,Where is the scene?,street,scene,A crowded street in Europe .
+Images/1500853305_0150615ce9.jpg,How many girls are visible?,1,count,A girl and a boy hugging on a bridge
+Images/1764955991_5e53a28c87.jpg,What color is the dog?,white,color,A tan and white dog retrieving a ball on a gravel path .
+Images/150387174_24825cf871.jpg,What person is visible?,man,object,A man dressed in camouflage riding a motorbike
+Images/1521623639_4bda3407cc.jpg,What is the man doing?,sitting,action,A homeless man sitting on a sofa under an overpass .
+Images/1536774449_e16b1b6382.jpg,Where is the scene?,building,scene,"A boxy building , A group of trees , a church at sunset ."
+Images/1507563902_6ec8d5d822.jpg,How many children are visible?,1,count,a child is doing a back flip whilst jumping on a trampoline .
+Images/1801874841_4c12055e2f.jpg,What color is the dog?,brown,color,A small brown dog is playing with a fuzzy slipper .
+Images/1521623639_4bda3407cc.jpg,What person is visible?,man,object,A homeless man sitting on a sofa under an overpass .
+Images/1552065993_b4dcd2eadf.jpg,What is the dog doing?,running,action,A dog is running in a field .
+Images/1552065993_b4dcd2eadf.jpg,Where is the scene?,field,scene,A dog is running in a field .
+Images/1529044279_4922ead27c.jpg,How many men are visible?,1,count,"A group of adults and children , with one man pointing at something off-camera ."
+Images/1801874841_4c12055e2f.jpg,What color is the dog?,black,color,"The black and tan dog is on a rug , tugging on a slipper ."
+Images/1536774449_e16b1b6382.jpg,What person is visible?,person,object,A crowd of people are gathered with a sky scene in the background .
+Images/1557451043_f5c91ff6f4.jpg,What is the girl doing?,sitting,action,A girl is sitting on the beach and staring at the ocean .
+Images/156967462_72db9b722c.jpg,Where is the scene?,water,scene,a couple dogs in and around a small lake of water near a highway
+Images/1557838421_a33f2a4911.jpg,How many dogs are visible?,2,count,A grey and white dog is biting the ear of a white and brown dog .
+Images/180506881_de0f59770f.jpg,What color is the shirt?,white,color,two people wearing white shirts and jeans each carrying a skateboard
+Images/1557838421_a33f2a4911.jpg,What animal is visible?,dog,object,A grey and white dog is biting the ear of a white and brown dog .
+Images/156967462_72db9b722c.jpg,What is the dog doing?,playing,action,A couple of dogs are playing in the water .
+Images/1598085252_f3219b6140.jpg,Where is the scene?,field,scene,A dog in a field .
+Images/1598085252_f3219b6140.jpg,How many dogs are visible?,1,count,A dog in a field .
+Images/1805990081_da9cefe3a5.jpg,What color is the dog?,white,color,A boy is walking a small white dog down the street .
+Images/1600208439_e94527b80f.jpg,What animal is visible?,dog,object,A brown dog playing in mud .
+Images/1606988704_fe330878a3.jpg,What is the child doing?,playing,action,Three children playing in hay
+Images/1622619190_d0b51aff28.jpg,Where is the scene?,grass,scene,A brown dog is walking on the grass beside a fence .
+Images/1606988704_fe330878a3.jpg,How many children are visible?,3,count,Three children playing in hay
+Images/1818403842_553a2a392c.jpg,What color is the dog?,black,color,black dogs jump in pool to a hand .
+Images/1643915227_9f48068772.jpg,What person is visible?,person,object,A group of people are walking down the sidewalk of a big city .
+Images/1643915227_9f48068772.jpg,What is the person doing?,walking,action,A group of people are walking down the sidewalk of a big city .
+Images/1655781989_b15ab4cbff.jpg,Where is the scene?,mountain,scene,A group of mountain climbers
+Images/1655781989_b15ab4cbff.jpg,How many people are visible?,1,count,A group of people walking in a line through the snow toward a mountain .
+Images/191003283_992257f835.jpg,What color is the shirt?,red,color,A young boy wearing a red shirt stands in the street with his arms open wide .
+Images/166433861_70b66cd381.jpg,What object is visible?,bike,object,A motorcycle racer leans his bike .
+Images/1679565118_d36f0d6d52.jpg,What is the dog doing?,jumping,action,Black dog jumping in the air with white dog standing on grass behind near pile of rocks .
+Images/166433861_70b66cd381.jpg,Where is the scene?,road,scene,A motorcyclist is driving down a road on their motorbike .
+Images/1689658980_0074d81d28.jpg,How many dogs are visible?,2,count,The two dogs are enjoying a run through the surf .
+Images/1937104503_313d22a2d0.jpg,What color is the dog?,black,color,a black dog is standing on a step next to a river at it shakes itself dry .
+Images/1689658980_0074d81d28.jpg,What animal is visible?,dog,object,The two dogs are enjoying a run through the surf .
+Images/1714316707_8bbaa2a2ba.jpg,What is the child doing?,standing,action,Child standing in a snowy landscape pulling down a snow-covered tree branch .
+Images/1714316707_8bbaa2a2ba.jpg,Where is the scene?,snow,scene,A boy in a red jacket smacks a snow covered tree with a stick .
+Images/172092461_a9a9762e13.jpg,How many men are visible?,1,count,A man wakeboards in a red vest and smiles for the camera .
+Images/1975531316_8b00eeaaf7.jpg,What color is the dog?,black,color,A small black and tan dog on a leash .
+Images/172092461_a9a9762e13.jpg,What person is visible?,man,object,A man wakeboards in a red vest and smiles for the camera .
+Images/1732217138_aa0199ef87.jpg,What is the person doing?,sitting,action,"Two people sitting , facing away , with dreadlocks ."
+Images/1732217138_aa0199ef87.jpg,Where is the scene?,bench,scene,two people sit on a bench .
+Images/1732436777_950bcdc9b8.jpg,How many men are visible?,1,count,A couple on the stairs are photographing a man and woman embracing in front of a building .
+Images/1975531316_8b00eeaaf7.jpg,What color is the dog?,brown,color,Small brown dog on leash
+Images/1732436777_950bcdc9b8.jpg,What person is visible?,person,object,A couple stands at the top of the stairs and two people stand at the bottom .
+Images/174466741_329a52b2fe.jpg,What is the girl doing?,running,action,A girl in a pink tank top and green pants is running through a field of tall flowers .
+Images/1745110280_0cbff5e273.jpg,Where is the scene?,grass,scene,Stretched image of a brown dog with a white patch of fur in his chest area sitting in the grass with trees in the background .
+Images/1752454466_723790dbd6.jpg,How many dogs are visible?,1,count,A brown and white dog exiting a yellow and blue ramp in a grassy area .
+Images/2021613437_d99731f986.jpg,What color is the shirt?,gray,color,A child in a gray t-shirt is bouncing a basketball on a basketball court .
+Images/1752454466_723790dbd6.jpg,What animal is visible?,dog,object,A brown and white dog exiting a yellow and blue ramp in a grassy area .
+Images/1808504612_3508f3c9bb.jpg,What is the child doing?,climbing,action,Children climbing huge tree .
+Images/177302997_5b2d770a0a.jpg,Where is the scene?,park,scene,A child is riding a plastic horse at an amusement park .
+Images/177302997_5b2d770a0a.jpg,How many children are visible?,1,count,A child holding on to the bar while riding a horse on a carousel ride .
+Images/2034553054_b00c166895.jpg,What color is the hat?,blue,color,A boy with a blue hat points towards a bowl full of cork .
+Images/1777816180_08d7e8063b.jpg,What person is visible?,boy,object,a boy prepares a jump off a rock .
+Images/1808504612_3508f3c9bb.jpg,What is the child doing?,sitting,action,Two children are sitting in some tree branches .
+Images/1775029934_e1e96038a8.jpg,Where is the scene?,field,scene,An animal with horns jumping in a field .
+Images/1777816180_08d7e8063b.jpg,How many boys are visible?,1,count,a boy prepares a jump off a rock .
+Images/2040941056_7f5fd50794.jpg,What color is the dog?,brown,color,Two brown dogs are fighting and biting each other .
+Images/1784309115_0ad6791146.jpg,What person is visible?,girl,object,A girl in the bathing suit talking to a guy .
+Images/1813266419_08bf66fe98.jpg,What is the girl doing?,playing,action,A girl playing in a fountain
+Images/1775029934_e1e96038a8.jpg,Where is the scene?,grass,scene,An antelope runs through tall brown grass .
+Images/1784309115_0ad6791146.jpg,How many girls are visible?,1,count,A girl in the bathing suit talking to a guy .
+Images/2040941056_7f5fd50794.jpg,What color is the dog?,yellow,color,Two shaggy yellow dogs playing in a rough manner .
+Images/180506881_de0f59770f.jpg,What person is visible?,person,object,The camera focuses on two people 's legs .
+Images/1813266419_08bf66fe98.jpg,What is the person doing?,playing,action,Person with striped shirt is playing in the sprinklers .
+Images/1805990081_da9cefe3a5.jpg,Where is the scene?,street,scene,A boy is walking a small white dog down the street .
+Images/181415975_2627aa6668.jpg,How many men are visible?,1,count,A blonde man is wakeboarding and is jumping into the air .
+Images/2045109977_b00ec93491.jpg,What color is the shirt?,black,color,The man is wearing a black shirt and holding up a blue item in a window .
+Images/181415975_2627aa6668.jpg,What person is visible?,man,object,A blonde man is wakeboarding and is jumping into the air .
+Images/181777261_84c48b31cb.jpg,What is the person doing?,standing,action,A partly cloudy day at the beach with people standing around and a building on the right .
+Images/181777261_84c48b31cb.jpg,Where is the scene?,beach,scene,A beach crowded with beachgoers .
+Images/1818403842_553a2a392c.jpg,How many dogs are visible?,2,count,Two black dogs are diving into a pool to get a dog toy .
+Images/2052202553_373dad145b.jpg,What color is the dog?,brown,color,A brown dog wades into a lake to retrieve a stick .
+Images/1858963639_4588cd4be9.jpg,What person is visible?,girl,object,A girl with a red helmet carying a lot of rope .
+Images/1858963639_4588cd4be9.jpg,What is the woman doing?,climbing,action,A woman with a helmet and climbing rope smiles at the camera .
+Images/186348874_75b2cf1ec5.jpg,Where is the scene?,road,scene,A group of bicyclists riding down a path in an off road race .
+Images/186348874_75b2cf1ec5.jpg,How many people are visible?,1,count,A group of people are riding bicycles in a race .
+Images/2067362863_59577f9d4d.jpg,What color is the dog?,brown,color,A brown dog is jumping up at another dog in front of the man in jeans .
+Images/191003283_992257f835.jpg,What person is visible?,boy,object,A young boy wearing a red shirt stands in the street with his arms open wide .
+Images/1924234308_c9ddcf206d.jpg,What is the girl doing?,climbing,action,A girl in a bikini in climbing rocks .
+Images/1924234308_c9ddcf206d.jpg,Where is the scene?,water,scene,A girl in a bikini and sneakers makes her way out of the water and onto the rocks .
+Images/1917203130_fcaff8b10e.jpg,How many children are visible?,1,count,A child at an exhibit .
+Images/2070831281_dc04b3e15d.jpg,What color is the hat?,white,color,A lady in a white hat and sunglasses riding a bicycle .
+Images/1917203130_fcaff8b10e.jpg,What person is visible?,child,object,A child at an exhibit .
+Images/1937104503_313d22a2d0.jpg,What is the dog doing?,playing,action,A black and white dog is playing in water .
+Images/1928319708_ccf1f4ee72.jpg,Where is the scene?,road,scene,A man is cycling on the road .
+Images/1928319708_ccf1f4ee72.jpg,How many men are visible?,1,count,A man is cycling on the road .
+Images/2073964624_52da3a0fc4.jpg,What color is the hat?,pink,color,A woman in a pink hat and a navy blue coat riding a bicycle .
+Images/197107117_4b438b1872.jpg,What person is visible?,person,object,A person is rock climbing between two large rock faces .
+Images/197107117_4b438b1872.jpg,What is the person doing?,climbing,action,A person is rock climbing between two large rock faces .
+Images/199463720_329a802206.jpg,Where is the scene?,street,scene,two bikers bike along the street .
+Images/1994416869_4dd769a806.jpg,How many girls are visible?,1,count,A little girl in only socks and a necklace is being tossed in the air and caught .
+Images/2074146683_7c83167aa1.jpg,What color is the hat?,white,color,A man in a white hat uses money to obscure the face of the baby in his baby carrier .
+Images/1994416869_4dd769a806.jpg,What person is visible?,girl,object,A little girl in only socks and a necklace is being tossed in the air and caught .
+Images/199463720_329a802206.jpg,What is the man doing?,riding,action,Two men riding bikes on highway .
+Images/2038662925_f4fa8c2534.jpg,Where is the scene?,bench,scene,a couple wearing black vike helmets sitting on a bench together
+Images/2021613437_d99731f986.jpg,How many boys are visible?,1,count,A boy dribbles a basketball in the gymnasium .
+Images/2080033499_6be742f483.jpg,What color is the dog?,brown,color,A brown dog is running away from his owner .
+Images/2034553054_b00c166895.jpg,What person is visible?,boy,object,A boy with a blue hat points towards a bowl full of cork .
+Images/2052202553_373dad145b.jpg,What is the dog doing?,running,action,A dog is running through a creek with a stick in its mouth .
+Images/2056377805_e9a9b3bcf0.jpg,Where is the scene?,water,scene,this group of people are practicing water safety by wearing preservers while in a raft on the river
+Images/2038662925_f4fa8c2534.jpg,How many benchs are visible?,1,count,a couple wearing black vike helmets sitting on a bench together
+Images/2082005167_a0d6a70020.jpg,What color is the dog?,black,color,A black dog is breaking ice at the edge of a stream .
+Images/2045109977_b00ec93491.jpg,What person is visible?,man,object,A man cleaning the inside of a large pane of glass .
+Images/2054869561_ff723e9eab.jpg,What is the dog doing?,running,action,A black and white dog is running with a pink Frisbee next to him
+Images/2057305043_952b8dc82c.jpg,Where is the scene?,water,scene,A paraglider soars near a cliff and over a body of water .
+Images/2049646140_d0de01e3c4.jpg,How many children are visible?,1,count,A child doing gymnastics
+Images/2085255128_61224cc47f.jpg,What color is the shirt?,gray,color,a young person wearing a grey shirt and yellow shorts jumping into a river .
+Images/2049646140_d0de01e3c4.jpg,What person is visible?,child,object,A child doing gymnastics
+Images/2056377805_e9a9b3bcf0.jpg,What is the person doing?,riding,action,A group of people wearing life jackets riding a raft through rough waters .
+Images/2059842472_f4fb61ea08.jpg,Where is the scene?,street,scene,A baby crawls next to a street against a blue sky .
+Images/2054869561_ff723e9eab.jpg,How many dogs are visible?,1,count,A black and white dog chases a pink Frisbee .
+Images/2085400856_ae09df33a7.jpg,What color is the dog?,red,color,A red dog crouches in the snow .
+Images/2057305043_952b8dc82c.jpg,What person is visible?,person,object,A person parachuting over the ocean
+Images/2067362863_59577f9d4d.jpg,What is the dog doing?,fighting,action,Two dogs play fighting on sand .
+Images/2059842472_f4fb61ea08.jpg,Where is the scene?,road,scene,A little toddler in blue pants is crawling on the road .
+Images/2060031241_a3ae7a06bb.jpg,How many children are visible?,1,count,A little kid holds up a remote control in front of the television .
+Images/2090339522_d30d2436f9.jpg,What color is the hat?,green,color,A man in a green hat is someplace up high .
+Images/2060031241_a3ae7a06bb.jpg,What person is visible?,child,object,A little kid holds up a remote control in front of the television .
+Images/2070831281_dc04b3e15d.jpg,What is the person doing?,riding,action,A person in winter gear is riding a bike near an intersection .
+Images/2073964624_52da3a0fc4.jpg,Where is the scene?,park,scene,The woman is wearing a pink hat and is riding a bike in the park .
+Images/2074146683_7c83167aa1.jpg,How many men are visible?,1,count,A man in a white hat uses money to obscure the face of the baby in his baby carrier .
+Images/2090997177_76d482b158.jpg,What color is the dog?,black,color,A black dog bounds across the sand .
+Images/2075493556_b763648389.jpg,What person is visible?,boy,object,Three boys in sports casual clothing are posing in front of a blue building
+Images/2077079696_03380d218b.jpg,What is the man doing?,climbing,action,The man in a blue sweater is climbing down the rocks
+Images/2075493556_b763648389.jpg,Where is the scene?,building,scene,Three boys in sports casual clothing are posing in front of a blue building
+Images/207584893_63e73c5c28.jpg,How many people are visible?,1,count,A person in a hang-glider .
+Images/2094323311_27d58b1513.jpg,What color is the dog?,brown,color,A large brown dog with a blue collar is resting his chin on a man 's face .
+Images/207584893_63e73c5c28.jpg,What person is visible?,person,object,A person in a hang-glider .
+Images/2077346067_0a3a5aae65.jpg,What is the man doing?,walking,action,A man dressed in black and holding a package in his hands is walking on a sidewalk near a police sign asking for witnesses to a road dealth to step forward .
+Images/2077346067_0a3a5aae65.jpg,Where is the scene?,road,scene,A man dressed in black and holding a package in his hands is walking on a sidewalk near a police sign asking for witnesses to a road dealth to step forward .
+Images/2077079696_03380d218b.jpg,How many men are visible?,1,count,A man carying sticks descends a rocky hill .
+Images/2094323311_27d58b1513.jpg,What color is the dog?,orange,color,An orange dog is licking a man wearing red sunglasses .
+Images/2080033499_6be742f483.jpg,What animal is visible?,dog,object,A brown dog is running away from his owner .
+Images/2082005167_a0d6a70020.jpg,What is the dog doing?,playing,action,A black and brown dog is playing on the ice at the edge of a lake .
+Images/2085255128_61224cc47f.jpg,Where is the scene?,water,scene,A boy high in the air above the dirt and water near the red rock cliffs .
+Images/2085400856_ae09df33a7.jpg,How many dogs are visible?,1,count,A dog in the snow .
+Images/2095435987_1b7591d214.jpg,What color is the dog?,white,color,The white dog is on its back in the sand with paws in the air .
+Images/2086532897_b8714f2237.jpg,What person is visible?,man,object,A man is kayaking down a waterfall .
+Images/2090997177_76d482b158.jpg,What is the dog doing?,walking,action,A dog walking across the desert .
+Images/2086532897_b8714f2237.jpg,Where is the scene?,water,scene,A person is on a small boat and going down some very strong water currents .
+Images/2086534745_1e4ab80078.jpg,How many men are visible?,1,count,A man in a yellow boat paddling down rough waters .
+Images/2098418613_85a0c9afea.jpg,What color is the dog?,brown,color,A brown chow mix dog is standing in front of a van with euro plats in the middle of a messy yard .
+Images/2086534745_1e4ab80078.jpg,What person is visible?,man,object,A man in a yellow boat paddling down rough waters .
+Images/2095435987_1b7591d214.jpg,What is the dog doing?,lying,action,A dog lying on its back in the sand .
+Images/2095444126_201ff9f222.jpg,Where is the scene?,water,scene,A dog is shaking off water .
+Images/2090327868_9f99e2740d.jpg,How many women are visible?,1,count,"A woman , a little boy , and a tiny baby are standing in front of a cow statue ."
+Images/2098418613_85a0c9afea.jpg,What color is the dog?,yellow,color,A yellow dog is standing in front of a green car and next to a toilet .
+Images/2090339522_d30d2436f9.jpg,What person is visible?,man,object,A man in a green hat is someplace up high .
+Images/2097403787_77a154f5b9.jpg,What is the person doing?,standing,action,a lone person standing on some rocks with large snowy mountains in the background .
+Images/2097403787_77a154f5b9.jpg,Where is the scene?,mountain,scene,A man is standing on the rocky ground in front of the mountain .
+Images/2090327868_9f99e2740d.jpg,How many boys are visible?,1,count,"A woman , a little boy , and a tiny baby are standing in front of a cow statue ."
+Images/2103568100_5d018c495b.jpg,What color is the dog?,white,color,A white dog is standing in a pond .
+Images/2090386465_b6ebb7df2c.jpg,What person is visible?,person,object,Two people are wearing heavy clothing .
+Images/2102724238_3cf921d7bb.jpg,What is the person doing?,sitting,action,Three people sitting on a bench .
+Images/2101128963_fdf8b2a0d7.jpg,Where is the scene?,field,scene,A baseball is recoiling from an action taken on a treated field watched by others .
+Images/2090386465_b6ebb7df2c.jpg,How many women are visible?,1,count,A woman and man in winter gear stand .
+Images/2112661738_de71b60b88.jpg,What color is the dog?,white,color,A white dog drinks water on a mountain .
+Images/2095444126_201ff9f222.jpg,What animal is visible?,dog,object,A dog is shaking off water .
+Images/2102724238_3cf921d7bb.jpg,What is the woman doing?,sitting,action,Two women are sitting with their purses in their laps .
+Images/2101808682_0d66ef4a08.jpg,Where is the scene?,building,scene,"A boy being swarmed by pigeons , marble building in the background ."
+Images/2098646162_e3b3bbf14c.jpg,How many dogs are visible?,2,count,A black and gray cat stands on a contracption while two big dogs stare at it .
+Images/2114739371_83aa8bdb0e.jpg,What color is the dog?,brown,color,"Brown and tan dog , mouth open with tongue hanging out , running in the grass ."
+Images/2098646162_e3b3bbf14c.jpg,What animal is visible?,dog,object,Two black and white dogs are looking at a grey and white kitty .
+Images/2103568100_5d018c495b.jpg,What is the dog doing?,standing,action,A white dog is standing in a pond .
+Images/2109911919_af45b93ef3.jpg,Where is the scene?,mountain,scene,A person climbing up a snowy mountain .
+Images/2101808682_0d66ef4a08.jpg,How many boys are visible?,1,count,"A boy being swarmed by pigeons , marble building in the background ."
+Images/2115631346_9585a479b0.jpg,What color is the dog?,brown,color,Two brown dogs are running through the snow .
+Images/2101128963_fdf8b2a0d7.jpg,What object is visible?,ball,object,A pitcher in a red and white uniform in a baseball game has just thrown the ball .
+Images/2109911919_af45b93ef3.jpg,What is the person doing?,climbing,action,A person climbing up a snowy mountain .
+Images/2112661738_de71b60b88.jpg,Where is the scene?,water,scene,A dog treads through a shallow area of water located on a rocky mountainside .
+Images/2114739371_83aa8bdb0e.jpg,How many dogs are visible?,1,count,A brown and black dog leaps through the freshly mown grass .
+Images/2120411340_104eb610b1.jpg,What color is the dog?,white,color,A white dog looks at a nervous cow in a mountain setting .
+Images/2115631346_9585a479b0.jpg,What animal is visible?,dog,object,Two brown dogs are running through the snow .
+Images/2116316160_d5fa7abdc3.jpg,What is the dog doing?,running,action,A dog is running toward the camera .
+Images/2116316160_d5fa7abdc3.jpg,Where is the scene?,grass,scene,A blonde dog runs through the grass .
+Images/2120411340_104eb610b1.jpg,How many dogs are visible?,1,count,A dog and a cow are on a rocky slope .
+Images/2128119486_4407061c40.jpg,What color is the boy?,brown,color,A young brown eyed boy with red syrup on his lips is pouring syrup .
+Images/2125216241_5b265a2fbc.jpg,What person is visible?,person,object,A few people park their boat at a dock .
+Images/2125216241_5b265a2fbc.jpg,What is the person doing?,standing,action,Three people are standing on the dock of a boat looking at something off camera .
+Images/2133650765_fc6e5f295e.jpg,Where is the scene?,pool,scene,A boy jumps into a not-so-crowded public pool .
+Images/2128119486_4407061c40.jpg,How many boys are visible?,1,count,A boy with lips messy from eating fruit
+Images/2141065212_463a6997e1.jpg,What color is the hat?,black,color,A man wearing a black hat and coat makes a face with a crowd behind him .
+Images/2133650765_fc6e5f295e.jpg,What person is visible?,boy,object,A boy jumps into a not-so-crowded public pool .
+Images/2140182410_8e2a06fbda.jpg,What is the person doing?,sitting,action,There is a person sitting on a plastic blow-up float in the high piled snow .
+Images/2140182410_8e2a06fbda.jpg,Where is the scene?,snow,scene,A boy in black winter clothes sits on an inflated sled by a mound of snow .
+Images/2140747429_62cfd89ae9.jpg,How many children are visible?,1,count,A child in the snow with a house in the background .
+Images/2141065212_463a6997e1.jpg,What color is the man?,white,color,The white haired man in the black baseball cap is wearing a black jacket covered with car racing emblems .
+Images/2140747429_62cfd89ae9.jpg,What person is visible?,child,object,A child in the snow with a house in the background .
+Images/2148695079_9ae6a9b1c7.jpg,What is the dog doing?,walking,action,Two white dogs are walking through deep white snow .
+Images/2147199188_d2d70b88ec.jpg,Where is the scene?,water,scene,A man holds a young boy upside down over a puddle of water .
+Images/2147199188_d2d70b88ec.jpg,How many men are visible?,1,count,A man holds a boy upside down over a pond .
+Images/2148695079_9ae6a9b1c7.jpg,What color is the dog?,white,color,Two fluffy white dogs are in the snow .
+Images/2156726763_034ecd2e39.jpg,What person is visible?,girl,object,A girl in a pink jacket and red hat walking near grass .
+Images/2156726763_034ecd2e39.jpg,What is the girl doing?,walking,action,A girl in a pink jacket and red hat walking near grass .
+Images/2162564553_96de62c7e6.jpg,Where is the scene?,water,scene,A man stands at the edge of the water near the rocks .
+Images/2158267555_db1d94e468.jpg,How many children are visible?,2,count,A child rides a pony while an older child and adult stand next to her .
+Images/2162564553_96de62c7e6.jpg,What color is the hat?,pink,color,A shirtless man in a pink hat is standing on a rocky shore .
+Images/2158267555_db1d94e468.jpg,What person is visible?,child,object,A child rides a pony while an older child and adult stand next to her .
+Images/2161799386_27aa938421.jpg,What is the boy doing?,sitting,action,A little boy is sitting on a blue toilet with his pants pulled down .
+Images/2171576939_d1e72daab2.jpg,Where is the scene?,snow,scene,A small child wearing winter clothes smiles while standing in the snow .
+Images/2161799386_27aa938421.jpg,How many children are visible?,1,count,A child is using the bathroom .
+Images/2165461920_1a4144eb2b.jpg,What color is the dog?,white,color,Four white dogs are running and jumping with masks over their mouth .
+Images/2165461920_1a4144eb2b.jpg,What animal is visible?,dog,object,dogs racing
+Images/2171576939_d1e72daab2.jpg,What is the child doing?,standing,action,A small child wearing winter clothes smiles while standing in the snow .
+Images/2173061319_1f267765dc.jpg,Where is the scene?,snow,scene,"A boy snow tubing on a green , blue , and yellow colored tube ."
+Images/2167644298_100ca79f54.jpg,How many men are visible?,1,count,A man dressed in black wearing a hat and glasses in front of a red wall .
+Images/2167644298_100ca79f54.jpg,What color is the hat?,black,color,A man dressed in black wearing a hat and glasses in front of a red wall .
+Images/2173061319_1f267765dc.jpg,What person is visible?,boy,object,A boy slides down a snowy hill in an innertube .
+Images/2176980976_7054c99621.jpg,What is the person doing?,standing,action,A few people standing on top of a mountain taking pictures .
+Images/2176980976_7054c99621.jpg,Where is the scene?,mountain,scene,A few people standing on top of a mountain taking pictures .
+Images/2178064851_bb39652d28.jpg,How many children are visible?,1,count,A child in a lake .
+Images/2187222896_c206d63396.jpg,What color is the shirt?,red,color,"a boy in a red shirt , in front of a long blue wall , raises his eyebrow at the camera"
+Images/2178064851_bb39652d28.jpg,What person is visible?,child,object,A child in a lake .
+Images/2183227136_8bb657846b.jpg,What is the child doing?,playing,action,A child playing in the beach sand during a sunset .
+Images/2183227136_8bb657846b.jpg,Where is the scene?,beach,scene,A child playing in the beach sand during a sunset .
+Images/2183967273_d182e18cf6.jpg,How many dogs are visible?,1,count,A brown and black dog laying on a grey plushie in front of a TV showing breaking news .
+Images/2187222896_c206d63396.jpg,What color is the shirt?,orange,color,The boy in the orange shirt looks backwards .
+Images/2183967273_d182e18cf6.jpg,What animal is visible?,dog,object,A brown and black dog laying on a grey plushie in front of a TV showing breaking news .
+Images/219843859_94b6d0a580.jpg,What is the man doing?,climbing,action,A man climbing a cliff face .
+Images/2187904131_96ea83b9b5.jpg,Where is the scene?,snow,scene,Skiiers are walking through the snow near the mountains .
+Images/2187904131_96ea83b9b5.jpg,How many people are visible?,2,count,two people ski in the mountains .
+Images/2190227737_6e0bde2623.jpg,What color is the dog?,gray,color,A woman stands in a field surrounded by three attentive gray dogs .
+Images/2190227737_6e0bde2623.jpg,What animal is visible?,dog,object,A girl holds something while three dogs beg .
+Images/2199200615_85e4c2a602.jpg,What is the dog doing?,running,action,A dog running on green grass with its mouth open and tongue hanging out .
+Images/2195419145_36722e8d54.jpg,Where is the scene?,building,scene,A business man and a security guard are smiling and talking outside a glass building .
+Images/2195419145_36722e8d54.jpg,How many men are visible?,1,count,A business man and a security guard are smiling and talking outside a glass building .
+Images/2199200615_85e4c2a602.jpg,What color is the dog?,white,color,a white dog is running with its mouth open across the grass .
+Images/2196050115_e236d91f52.jpg,What person is visible?,boy,object,a boy is aiming a bow and arrow at a target .
+Images/2203449950_e51d0f9065.jpg,What is the girl doing?,standing,action,The young girl standing on the grass is wearing a pink dress .
+Images/2199250692_a16b0c2ae1.jpg,Where is the scene?,street,scene,Man pulling a cart in the street .
+Images/2196050115_e236d91f52.jpg,How many boys are visible?,1,count,a boy is aiming a bow and arrow at a target .
+Images/2203449950_e51d0f9065.jpg,What color is the dress?,pink,color,"A girl in a frilly pink dress , dancing on grass ."
+Images/219843859_94b6d0a580.jpg,What person is visible?,man,object,A man climbing a cliff face .
+Images/2205088706_d7e633e00d.jpg,What is the boy doing?,jumping,action,a boy in a red jacket is jumping in the sand
+Images/2205088706_d7e633e00d.jpg,Where is the scene?,field,scene,A small child jumps high above a sandy field .
+Images/2198511848_311d8a8c2f.jpg,How many men are visible?,1,count,A man jumps off a ramp on a snowboard .
+Images/2206960564_325ed0c7ae.jpg,What color is the dog?,white,color,A white puppy is running on a tiled floor .
+Images/2198511848_311d8a8c2f.jpg,What person is visible?,man,object,A man jumps off a ramp on a snowboard .
+Images/2206403470_8c25aa3cf8.jpg,What is the boy doing?,playing,action,The young boy listens to the elderly gentleman playing violin at the park .
+Images/2206403470_8c25aa3cf8.jpg,Where is the scene?,park,scene,A little Jewish boy is watching an old man playing the violin in a park .
